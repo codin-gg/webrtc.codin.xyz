@@ -1,0 +1,18 @@
+{
+  "private": true,
+  "name": "webrtc.codin.xyz",
+  "version": "0.0.0-private",
+  "bin": {
+    "webrtc": "bin/cluster.mjs"
+  },
+  "scripts": {
+    "bin": "node $npm_package_bin_webrtc --workers 4 --port 8080",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "ws": "^8.18.0"
+  },
+  "devDependencies": {
+    "standard": "*"
+  }
+}
